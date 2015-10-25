@@ -36,7 +36,9 @@ public class CrossFadeActivity extends Activity
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu)
 	{
-		menu.add(0, 1, 0, "toggle");
+		MenuItem item = menu.add(0, 1, 0, "toggle");
+		item.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM
+				| MenuItem.SHOW_AS_ACTION_WITH_TEXT);
 		return super.onCreateOptionsMenu(menu);
 	}
 

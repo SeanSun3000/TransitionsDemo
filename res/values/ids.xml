@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="viewPager" type="id"/>
+    <item name="previous" type="id"></item>
+    <item name="next" type="id"></item>
+
+</resources>
