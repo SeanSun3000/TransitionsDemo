@@ -18,7 +18,11 @@ public class MainActivity extends ListActivity
 
 		Sample[] samples = new Sample[] {
 				new Sample("crossfade", CrossFadeActivity.class),
-				new Sample("screen slide", ScreenSlideActivity.class) };
+				new Sample("screen slide", ScreenSlideActivity.class),
+				new Sample(getString(R.string.title_card_flip),
+						CardFlipActivity.class),
+				new Sample(getString(R.string.title_layout_changes),
+						LayoutChangesActivity.class) };
 
 		ArrayAdapter<Sample> adapter = new ArrayAdapter<Sample>(this,
 				android.R.layout.simple_list_item_1, samples);

@@ -4,5 +4,6 @@
     <item name="viewPager" type="id"/>
     <item name="previous" type="id"></item>
     <item name="next" type="id"></item>
+    <item name="action_flip" type="id"></item>
 
 </resources>

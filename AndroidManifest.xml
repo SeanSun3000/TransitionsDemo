@@ -34,6 +34,23 @@
         </activity>
         <activity
             android:name="com.example.transitiondemo.ScreenSlideActivity"
+            android:parentActivityName=".MainActivity"
+            tools:ignore="UnusedAttribute" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".CardFlipActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/DarkTheme"
+            tools:ignore="UnusedAttribute" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".LayoutChangesActivity"
             android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
