@@ -6,6 +6,7 @@
     <string name="tile_template_step">Step <xliff:g id="step number">%1$d</xliff:g></string>
     <string name="title_card_flip">flip_card</string>
     <string name="title_layout_changes">layout changes</string>
+    <string name="title_zoom">Zoom</string>
     
     <!--  Actions -->
     <string name="action_phote">View photo</string>
@@ -14,10 +15,14 @@
     
     <!--  Messages -->
     <string name="message_empty_layout_changes">add an item above to get started</string>
+    <string name="message_room_touch_expand">Touch a photo to expand it</string>
     
     <!--  Accessibility-only descriptions -->
     <string name="description_card_front_image">Image 1</string>
-    <string name="description_item_remove">remove item</string>
+    <string name="description_item_remove">Remove item</string>
+    <string name="description_room_touch_close">Expanded Image (touch to close)</string>
+    <string name="description_image_1">Image 1</string>
+    <string name="description_image_2">Image 2</string>
     
     <!-- Other strings -->
     <string name="card_back_title">Angry Red Android</string>

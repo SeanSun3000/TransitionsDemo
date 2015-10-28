@@ -22,7 +22,9 @@ public class MainActivity extends ListActivity
 				new Sample(getString(R.string.title_card_flip),
 						CardFlipActivity.class),
 				new Sample(getString(R.string.title_layout_changes),
-						LayoutChangesActivity.class) };
+						LayoutChangesActivity.class),
+				new Sample(getString(R.string.title_zoom), ZoomActivity.class)
+		};
 
 		ArrayAdapter<Sample> adapter = new ArrayAdapter<Sample>(this,
 				android.R.layout.simple_list_item_1, samples);

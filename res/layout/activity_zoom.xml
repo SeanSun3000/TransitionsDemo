@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:padding="16dp" >
+
+        <TextView
+            style="?android:textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/message_room_touch_expand" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal" >
+
+            <com.example.transitiondemo.TouchHightlightImageButton
+                android:id="@+id/thumb_button_1"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:layout_marginRight="1dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/description_image_1"
+                android:src="@drawable/thumb1" />
+
+            <com.example.transitiondemo.TouchHightlightImageButton
+                android:id="@+id/thumb_button_2"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/description_image_2"
+                android:src="@drawable/thumb2" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/expanded_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/description_room_touch_close"
+        android:visibility="invisible" />
+
+</FrameLayout>
