@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <item
-        android:id="@id/previous"
-        android:showAsAction="ifRoom|withText"
-        android:title="previous"/>
+    <group
+        android:id="@+id/action_flip"
+        android:checkableBehavior="none"
+        android:orderInCategory="0" >
+        <item
+            android:id="@id/previous"
+            android:showAsAction="ifRoom|withText"
+            android:title="previous"/>
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:orderInCategory="1" >
+        <item
+            android:id="@+id/action_zoom_out_page_transformer"
+            android:showAsAction="ifRoom|withText"
+            android:title="zoom out page transformer"/>
+        <item
+            android:id="@+id/action_depth_page_transformer"
+            android:showAsAction="ifRoom|withText"
+            android:title="depth page transformer"/>
+    </group>
 
 </menu>

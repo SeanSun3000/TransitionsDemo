@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.transitiondemo.CrossFadeActivity"
+            android:name=".CrossFadeActivity"
             android:parentActivityName=".MainActivity"
             android:uiOptions="splitActionBarWhenNarrow"
             tools:ignore="UnusedAttribute" >
@@ -33,8 +33,9 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name="com.example.transitiondemo.ScreenSlideActivity"
+            android:name=".ScreenSlideActivity"
             android:parentActivityName=".MainActivity"
+            android:uiOptions="splitActionBarWhenNarrow"
             tools:ignore="UnusedAttribute" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -44,6 +45,7 @@
             android:name=".CardFlipActivity"
             android:parentActivityName=".MainActivity"
             android:theme="@style/DarkTheme"
+            android:uiOptions="splitActionBarWhenNarrow"
             tools:ignore="UnusedAttribute" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
